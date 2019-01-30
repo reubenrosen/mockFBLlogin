@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.reubenproject.login.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile number or email address"
+        android:background="@android:color/white"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:text=""
+        android:textSize="16dp"
+        android:background="#DFE3EE"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter password"
+        android:background="@android:color/white"
+        android:id="@+id/pass"
+        android:layout_below="@id/username"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/pass"
+        android:background="#DFE3EE"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/passbox"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/passbox"
+        android:layout_marginTop="8dp"
+        android:background="#3B5998"
+        android:id="@+id/loginbutton"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loginbutton"
+        android:paddingTop="16dp"
+        android:id="@+id/or"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE AN ACCOUNT"
+        android:background="#59983b"
+        android:layout_below="@id/or"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/createacc" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/createacc"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/eng"
+        android:textColor="#3b5998"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हिंदी"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/eng"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/hindi"
+        android:textColor="#3b5998"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="తెలుగు"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/hindi"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/telugu"
+        android:textColor="#3b5998"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="मराठी"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/telugu"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/marathi"
+        android:textColor="#3b5998"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="தமிழ்"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/marathi"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tamil"
+        android:textColor="#3b5998"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Languages"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tamil"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/more"
+        android:textColor="#3b5998"/>
+
+
+</RelativeLayout>
